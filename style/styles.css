@@ -476,4 +476,34 @@ font-size: 16px;
     margin-bottom: 5%;
 
   } 
+
+  /* estilos pag contacto */
+  .content-pre-form h2{
+    font-size: 1.4rem;
+  }
+  .content-pre-form {
+    width: 70%;
+  }
+
+  /* estilos quien soy */
+  .content-about-me{
+    width: 70%;
+    margin-top: 6%;
+  }
+
+  /* pag servicios */
+
+  .information-services{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .information-services h2{
+    font-size: 1.3rem;
+  }
+
+  .information-services p{
+    font-size:  18px;
+  }
 }
