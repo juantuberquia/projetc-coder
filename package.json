@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1"
-  }
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juantuberquia/proyecto-consultorias.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juantuberquia/proyecto-consultorias/issues"
+  },
+  "homepage": "https://github.com/juantuberquia/proyecto-consultorias#readme",
+  "description": ""
 }
