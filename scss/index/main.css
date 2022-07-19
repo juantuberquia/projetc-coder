@@ -175,13 +175,25 @@ body {
   margin-right: auto;
 }
 
+.buton-solicitu {
+  margin-top: 2%;
+}
+
 .logo-footer {
-  padding-top: 24px;
+  width: 100%;
+}
+
+.content-logo {
+  width: 65%;
+  margin-left: 10%;
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
 }
 
 .container-elements {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .text-block {
@@ -201,20 +213,24 @@ body {
 .content-footer {
   margin-top: 8%;
   background-color: #808080;
+  width: 99%;
 }
 
 .icon-logo {
-  width: 20%;
+  width: 10%;
+}
+
+.content-icons {
+  display: -webkit-box;
 }
 
 .container-main {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "title  title"
- "description  cases";
-  /* -ms-grid-columns: (1fr)[1]; */
+      grid-template-areas: "title  title" "description  cases";
+  -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
-  /* -ms-grid-rows: (1fr)[1]; */
+  -ms-grid-rows: (1fr)[1];
       grid-template-rows: repeat(1, 1fr);
 }
 
