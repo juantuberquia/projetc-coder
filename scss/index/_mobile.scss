@@ -1,0 +1,102 @@
+/* mobile */
+@media only screen and (max-width: 540px) {
+
+    /* estilos pag index */
+  
+    .content-form{
+      width: 60%;
+    }
+    
+    .container-experience{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .container-experience ul{
+      margin-left: 5%;
+    }
+    
+    .text-introdution-1,.text-introdution-2, 
+    .content-process {
+      margin-top: 5%;
+      margin-bottom: 4%;
+    
+    }
+    .container-introduction{
+      margin-top: 6%;
+    }
+  
+    .container-photo {
+      margin-top: 10%;
+    }
+  
+    .content-icon{
+      width: 200px;
+    }
+    .content-advisory {
+      margin-bottom: 10%;
+    }
+  
+    /*** estilos pagina casos ***/
+    .content-cases-successful{
+      font-size: 24px;
+      margin-top: 8%;
+      margin-bottom: 5%;
+    }
+  
+    .section-main{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 5%;
+      justify-content: center;
+      padding-left: 0%; 
+       padding-right: 0%;
+       margin-left: 8%;
+      margin-right: 5%;
+    }
+    .content-experience{
+      margin-bottom: 5%;
+      width: 100%;
+    }
+    .content-cases ul {
+      margin-bottom: 5%;
+      margin-right: 0%;
+    }
+  
+    .content-cases{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 5%;
+  
+    } 
+  
+    /* estilos pag contacto */
+    .content-pre-form h2{
+      font-size: 1.4rem;
+    }
+    .content-pre-form {
+      width: 70%;
+    }
+  
+    /* estilos quien soy */
+    .content-about-me{
+      width: 85%;
+      margin-top: 6%;
+    }
+  
+    /* pag servicios */
+  
+    .information-services{
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .information-services h2{
+      font-size: 1.3rem;
+    }
+  
+    .information-services p{
+      font-size:  18px;
+    }
+  }

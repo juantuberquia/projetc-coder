@@ -1,0 +1,95 @@
+/*** MEDIA QUERYS ***/
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+
+    /* querys pag index */
+    .items-nav {
+      display: flex;
+      font-size: 16px;
+    }
+  
+    .items-nav li {
+      margin-right: 2%;
+      list-style: none;
+      background-color: grey;
+      width: 14%;
+      text-align: center;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+    }
+  
+    .items-nav li a{
+      font-size: 14px;
+    }
+    
+    .container-introduction p {
+      font-size: 14px;
+    }
+  
+    .button-advisory{
+      font-size: 16px;
+    }
+  
+    .content-form{
+      width: 40%;
+    }
+  
+    .content-footer{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+   
+  
+   .content-footer p {
+      width: 100%;
+      font-size: 12px;
+    }
+  
+     /*querys pag casos  */
+     .content-cases-successful{
+       margin-top: 4%;
+     }
+  
+     .section-main{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .content-experience{
+      margin-bottom: 5%;
+      width: 100%;
+    }
+    /* querys pag contacto */
+      .container-pre-form{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .content-pre-form {
+      width: 60%;
+    }
+  
+    /* pagina sobre mi */
+    .container-logo{
+      width: 80px;
+    }
+  
+    .content-footer{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+  
+    .content-icons{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+  
+    .content-icons a{
+      margin-right: 40%;
+    }
+  
+  
+  }
