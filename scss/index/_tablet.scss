@@ -2,7 +2,19 @@
 /* Tablet */
 @media only screen and (max-width: 1024px) {
 
-    /* querys pag index */
+
+  .items-nav a {
+    width: 22%;
+    margin-bottom: 0.3%;
+    padding-bottom: 2%;
+    
+  } 
+     /* querys pag index */
+    .items-nav {
+      display: flex;
+      font-size: 16px;
+    }
+
     .items-nav {
       display: flex;
       font-size: 16px;
