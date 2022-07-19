@@ -1,0 +1,51 @@
+.section-main {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+  
+  }
+  .main-back{
+    background-image: url("../assets/fondo.jpg"); 
+  }
+  
+  .container-introduction {
+    width: 50%;
+    margin-top: 17%;
+  }
+  
+  .container-introduction p{
+  
+    padding: 0 10% 0 10%;
+    font-size: 18px;
+  }
+  
+  /* boton de asesoria */
+  .content-advisory{
+    background-color: #808080;
+    width: fit-content;
+    padding:1% 2%;
+    margin-top: 6%;
+    margin-left: 9%;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .content-advisory:hover{
+    background-color: #CABC6E;
+  }
+  
+  .button-advisory{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  /* foto principal */
+  .container-photo {
+    width: 45%;
+  }
+  
+  .container-photo img {
+    width: 100%;
+  }
+  

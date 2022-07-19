@@ -1,0 +1,40 @@
+
+.container-main{
+    display: grid;
+    grid-template-areas:
+    "title  title"
+    "description  cases";
+    grid-template-columns: repeat(1, 1fr)  ;  
+    grid-template-rows: repeat(1, 1fr);
+  
+  }
+  
+  .content-cases-successful{
+    grid-area: title;
+    text-align: center;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 24px;
+  }
+  
+  .content-experience{
+    grid-area: description;
+    width: 80%;
+    margin-right: 8%;
+    text-align: left;
+    line-height:1.5rem
+  }
+  
+  .content-cases{
+    grid-area: cases;
+    display: flex;
+  }
+  
+  .content-cases ul{
+  
+    margin-right: 10%;
+  }
+  
+  .content-cases ul li{
+    line-height:1.5rem
+  }

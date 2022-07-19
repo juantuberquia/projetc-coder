@@ -1,0 +1,31 @@
+/* seccion experiencia y casos */
+.container-experience {
+    display: grid;
+    grid-template-areas:
+    "text1  text2 process";
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    font-size: 16px;
+  }
+  
+  .text-introdution-1{
+    grid-area: text1;
+    padding-right: 1%;
+    width: 90%;
+  }
+  
+  .text-introdution-2{
+    grid-area: text2;
+    width: 100%;
+  }
+  
+  .content-process{
+    grid-area: process;
+    width: 100%;
+  }
+  
+  .container-experience ul {
+    margin-left: 20%;
+    font-size: 16px;
+  }

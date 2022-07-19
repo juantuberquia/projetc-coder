@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+        /* ESTILOS INDEX **/
+/* estilos boostrtap*/
+.navbar-nav a:hover{
+    color: #365776;
+    font-weight: 500;
+    }
+    
+    .navbar-expand-lg{
+      width: 100%;
+    }
+    
+    /* seccion header */
+    .headering {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    .nav-bar {
+      width: 100%;
+      margin-left: 10%;
+      margin-top: 3%;
+    }
+    
+    .container-logo {
+      width: 20%;
+      margin-left: 2%;
+      margin-top: 1%;
+      margin-right: 10%;
+    }
+    
+    .container-logo img {
+      width: 100%;
+    }
+    
+    .items-nav {
+      display: flex;
+      font-size: 16px;
+      width: 100%;
+      
+    }
+    
+    .items-nav a {
+      margin-right: 3%;
+      list-style: none;
+      width: 16%;
+      text-align: center;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+      cursor: pointer;
+      border-radius: 6px;
+      background: grey;
+      transition: all 0.5s ease-in;
+    }
+     
+    .items-nav a:hover{
+    
+      background: rgb(238,219,219); 
+       background: linear-gradient(90deg, rgba(238,219,219,1) 0%, rgba(202,188,110,1) 19%);
+      
+    }
