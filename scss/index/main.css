@@ -177,9 +177,9 @@ body {
 
 .buton-solicitu {
   margin-top: 2%;
-  background-color: #44c767;
+  background-color: #1f4869;
   border-radius: 10px;
-  border: 1px solid #18ab29;
+  border: 1px solid #2b3f4f;
   cursor: pointer;
   color: #ffffff;
   font-size: 17px;
@@ -188,7 +188,8 @@ body {
 }
 
 .buton-solicitu:hover {
-  background-color: #5cbf2a;
+  background-color: #0d3d63;
+  color: #ffffff;
 }
 
 .logo-footer {
