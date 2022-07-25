@@ -1,8 +1,6 @@
 /*** MEDIA QUERYS ***/
 /* Tablet */
 @media only screen and (max-width: 1024px) {
-
-
   .items-nav a {
     width: 22%;
     margin-bottom: 0.3%;
@@ -13,6 +11,7 @@
     .items-nav {
       display: flex;
       font-size: 16px;
+      margin-top: 2%;
     }
 
     .items-nav {

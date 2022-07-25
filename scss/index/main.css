@@ -40,9 +40,10 @@ body {
 
 .container-logo {
   width: 20%;
-  margin-left: 2%;
+  margin-left: 1%;
   margin-top: 1%;
   margin-right: 10%;
+  margin-bottom: 2%;
 }
 
 .container-logo img {
@@ -183,7 +184,7 @@ body {
   cursor: pointer;
   color: #ffffff;
   font-size: 17px;
-  padding: 13px 25px;
+  padding: 9px 15px;
   text-shadow: 0px 1px 0px #2f6627;
 }
 
@@ -408,6 +409,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     font-size: 16px;
+    margin-top: 2%;
   }
   .items-nav {
     display: -webkit-box;
@@ -493,7 +495,7 @@ body {
 /* mobile */
 @media only screen and (max-width: 540px) {
   .items-nav a {
-    width: 22%;
+    width: 100%;
     margin-bottom: 0.3%;
     padding-bottom: 2%;
   }
