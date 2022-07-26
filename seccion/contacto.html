@@ -9,19 +9,18 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <link rel="stylesheet" href="./scss/index/main.css">
-    <title>servicios</title>
+    <link rel="stylesheet" href="../scss/index/main.css">
+    <title>Contacto</title>
   </head>
   <body>
     <header class="headering">
       <nav class="navbar navbar-expand-lg">
         <div class="container-logo">
           <a href="./index.html">
-            <img src="./assets/logo.svg" alt="logo" />
+            <img src="../assets/logo.svg" alt="logo" />
           </a>
         </div>
         <div class="container-fluid animate__animated animate__bounceInRight">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,25 +36,51 @@
         </div>
       </nav>
     </header>
-    <!-- seccion mis servicios -->
-    <main class="content-services">
-      <div class="container-services">
-        <img src="./assets/servicios.png" alt="">
+    <section class="content-contact">
+      <div class="container-banner">
+        <img src="../assets/contacto.png" alt="">
       </div>
-      <div class="information-services">
-        <h2>Abogada penalista</h2>
-        <h3>Mis servicios</h3>
+    </section>
+    <main class="container-pre-form">
+      <!-- seccion experiencia -->
+      <div class="content-pre-form">
+        <h2> Estoy lista para asistirle</h2>
         <p>
-          Mi experiencia versa en la representación jurídica de los siguientes delitos: Responsabilidad médica en materia penal, minería ilegal, homicidios y lesiones culposas como consecuencia de los accidentes de tránsito; fuga de presos, fraudes procesales, falsedades documentales, estafas, delitos ambientales, violencia intrafamiliar, delitos sexuales, los derivados del tráfico de estupefacientes, porte de armas, concierto para delinquir, extorsión, delitos contra la administración pública.
+          Realice sus consultas jurídicas y reciba asesoría en línea.
+          Contamos con alta experiencia en el área del derecho penal, que nos permite guiarlo en los primeros pasos para la resolución de conflictos o conformación de actos legales.
         </p>
     </div>
+      <div>
+        <!-- formulario asesoria -->
+        <form class="w-50 content-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="formGroupExampleInput"> Nombre </label>
+              <input required type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresar nombre">
+            </div>
+            <div class="form-group ">
+              <label for="inputEmail4"> Correo </label>
+              <input required type="email" class="form-control" id="inputEmail4" placeholder="Ingresar email">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput">  Celular</label>
+              <input required type="tel" class="form-control" id="formGroupExampleInput" placeholder="Ingresar celular">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"> ¿cual es tu duda?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn buton-solicitu"> enviar solicitud </button>
+        </form>
+      </div>
     </main>
-    <!-- seccion redes sociales -->
+    <!-- iconos redes sociales -->
     <footer class="content-footer">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col container-elements">
           <div class="card h-100">
-            <img src="./assets/logo.svg" class="card-img-top logo-footer" alt="logo">
+            <img src="../assets/logo.svg" class="card-img-top logo-footer" alt="logo">
           </div>
         </div>
         <div class="col container-elements">
@@ -68,10 +93,10 @@
         <div class="col container-elements">
           <div class="card h-100">
             <a href="https://www.facebook.com" target="_blank">
-              <img class="card-img-top icon-logo" src="./assets/facebook-brands.svg" alt="logo_facebook">
+              <img class="card-img-top icon-logo" src="../assets/facebook-brands.svg" alt="logo_facebook">
             </a>
             <a href="https://www.instagram.com">
-              <img src="./assets/instagram-brands.svg" class="card-img-top icon-logo" alt="instagram">
+              <img src="../assets/instagram-brands.svg" class="card-img-top icon-logo" alt="instagram">
             </a>
           </div>
         </div>
