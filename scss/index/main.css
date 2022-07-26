@@ -236,6 +236,8 @@ body {
 
 .content-icons {
   display: -webkit-box;
+  text-align: center;
+  padding-top: 15%;
 }
 
 .container-main {
