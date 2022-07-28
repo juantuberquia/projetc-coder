@@ -95,4 +95,32 @@
       padding-top: 6%;
       padding-bottom: 6%;
     }
+    // menu hamburguesa
+    .container-fluid {
+      position: relative;
+      top: -37px;
+    }
+    .items-nav a {
+      width:50%;
+      margin-bottom: 0.3%;
+      padding-bottom: 2%;
+    }
+    // alineacion
+    .container-logo{
+      margin-left: auto;
+    }
+    
+    .container-elements{
+      margin: 0;
+    }
+
+    .logo-footer{
+      width: 59%;
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-bottom: 5%;
+      position: relative;
+      left: 22%;
+    }
+   
   }

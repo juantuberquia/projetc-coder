@@ -118,4 +118,25 @@
     .content-icons a{
         margin-right: 0;
     }
+
+    // menu hamburguesa
+    .container-fluid {
+      position: relative;
+      top: -37px;
+    }
+    // alineacion
+    .container-logo{
+      margin-left: auto;
+    }
+
+    .container-elements{
+      margin: 0;
+    }
+
+    .logo-footer{
+      width: 100%;
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-bottom: 5%;
+    }
   }
