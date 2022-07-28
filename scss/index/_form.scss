@@ -1,13 +1,17 @@
-.content-form {
 
+$palette:(
+  primary: #1f4869,
+  secundary: #0d3d63
+);
+
+.content-form {
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
   }
 
   .buton-solicitu{
     margin-top: 2%;
-    background-color:#1f4869;
+    background-color: map-get($map: $palette, $key:primary );
     border-radius:10px;
     border:1px solid #2b3f4f;
     cursor:pointer;
@@ -19,6 +23,6 @@
   }
 
   .buton-solicitu:hover{
-    background-color:#0d3d63;
+    background-color: map-get($map: $palette, $key:secundary );;
     color:#ffffff;
   }

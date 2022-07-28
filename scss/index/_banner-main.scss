@@ -1,11 +1,12 @@
 @mixin bg-color ($bg-color) {
 background-color: $bg-color;
-  
 }
 
 @mixin width ($width){
   width:$width ;
 }
+
+
 
 .section-main {
     display: flex;
