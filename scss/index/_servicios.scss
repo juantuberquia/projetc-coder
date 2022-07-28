@@ -3,6 +3,12 @@
 @mixin width-full {
   width: 100%;  
 }
+
+@mixin text-center($center, $mb) {
+  text-align: $center;
+  margin-bottom: $mb;
+  
+}
 /* seccion sobre los servicios ofrecidos*/
 .content-services{
   margin-top: 5%;
@@ -24,16 +30,12 @@
 }
 
 .information-services h2{
-  text-align: center;
-  margin-bottom: 5%;
+  @include text-center( center, 5% );
   font-size: 2rem;
-
 }
 
 .information-services h3{
-  text-align: center;
-  margin-bottom: 2%;
-
+  @include text-center( center, 2% );
 }
 .information-services p{
   text-align: center;

@@ -7,12 +7,10 @@
 .content-contact {
     margin-top: 5%;
   }
-  .container-banner{
+  .container-banner, .container-banner img{
     @include width-full
   }
-  .container-banner img{ 
-    @include width-full
-  }
+ 
   /* seccion introduccion abogada */
   .content-pre-form{
     width: 40%;

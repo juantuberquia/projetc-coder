@@ -68,7 +68,7 @@
        margin-top: 4%;
      }
   
-     .section-main{
+     .section-main, .content-footer{
        @include flex-wrap
       
     }
@@ -91,11 +91,7 @@
     .container-logo{
       width: 80px;
     }
-  
-    .content-footer{
-      @include flex-wrap
-    }
-    
+     
     .content-icons{
       padding-top: 6%;
       padding-bottom: 6%;

@@ -18,7 +18,7 @@ body {
   font-weight: 500;
 }
 
-.navbar-expand-lg {
+.navbar-expand-lg, .container-logo img {
   width: 100%;
 }
 
@@ -41,10 +41,6 @@ body {
 .container-logo {
   width: 20%;
   margin: 1% 10% 2% 1%;
-}
-
-.container-logo img {
-  width: 100%;
 }
 
 .items-nav {
@@ -291,11 +287,7 @@ body {
   margin-top: 5%;
 }
 
-.container-banner {
-  width: 100%;
-}
-
-.container-banner img {
+.container-banner, .container-banner img {
   width: 100%;
 }
 
@@ -449,7 +441,7 @@ body {
   .content-cases-successful {
     margin-top: 4%;
   }
-  .section-main {
+  .section-main, .content-footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -471,13 +463,6 @@ body {
   /* pagina sobre mi */
   .container-logo {
     width: 80px;
-  }
-  .content-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .content-icons {
     padding-top: 6%;
