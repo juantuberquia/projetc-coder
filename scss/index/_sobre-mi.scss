@@ -1,4 +1,8 @@
 /* ESTILOS SOBRE MI */
+
+@mixin width-full {
+  width: 100%;  
+}
 /* agrega fondo */
 .content-about-me{
     width: 50%;
@@ -8,7 +12,7 @@
   
   /* imagen principal */
   .container-foto{
-    width: 100% ;
+    @include width-full
   }
   
   .content-image-foto{
@@ -19,7 +23,7 @@
   }
   
   .content-image-foto img{
-    width: 100%;
+    @include width-full
   }
   
   .content-about-me div h2{

@@ -1,4 +1,11 @@
 /*** MEDIA QUERYS ***/
+
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
 /* Tablet */
 @media only screen and (max-width: 1024px) {
   .items-nav a {
@@ -62,8 +69,8 @@
      }
   
      .section-main{
-      display: flex;
-      flex-wrap: wrap;
+       @include flex-wrap
+      
     }
   
     .content-experience{
@@ -86,8 +93,7 @@
     }
   
     .content-footer{
-      display: flex;
-      flex-wrap: wrap;
+      @include flex-wrap
     }
     
     .content-icons{

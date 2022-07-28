@@ -1,21 +1,24 @@
 /* ESTILOS CONTACTO */
+@mixin width-full {
+  width: 100%;  
+}
 
 /* imagen contacto */
 .content-contact {
     margin-top: 5%;
   }
   .container-banner{
-    width: 100%;
+    @include width-full
   }
   .container-banner img{ 
-    width: 100%;
+    @include width-full
   }
   /* seccion introduccion abogada */
   .content-pre-form{
     width: 40%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
   }
   
   .content-pre-form h2 {

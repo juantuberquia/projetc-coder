@@ -1,15 +1,19 @@
 // ESTILOS SERVICIOS
+
+@mixin width-full {
+  width: 100%;  
+}
 /* seccion sobre los servicios ofrecidos*/
 .content-services{
   margin-top: 5%;
 }
 
 .container-services{
-  width: 100%;
+  @include width-full
 }
 
 .container-services img{
-  width: 100%;
+  @include width-full
 }
 
 .information-services{
