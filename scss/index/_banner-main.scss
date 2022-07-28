@@ -1,3 +1,12 @@
+@mixin bg-color ($bg-color) {
+background-color: $bg-color;
+  
+}
+
+@mixin width ($width){
+  width:$width ;
+}
+
 .section-main {
     display: flex;
     padding-left: 10%;
@@ -22,7 +31,7 @@
   
   /* boton de asesoria */
   .content-advisory{
-    background-color: #808080;
+    @include bg-color(#808080);
     width: fit-content;
     padding:1% 2%;
     margin-top: 6%;
@@ -31,7 +40,7 @@
     border-radius: 10px;
   }
   .content-advisory:hover{
-    background-color: #CABC6E;
+    @include bg-color(#CABC6E);
   }
   
   .button-advisory{
@@ -42,10 +51,10 @@
   
   /* foto principal */
   .container-photo {
-    width: 45%;
+    @include width(45%)
   }
   
   .container-photo img {
-    width: 100%;
+    @include width(100%)
   }
   
