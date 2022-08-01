@@ -26,3 +26,7 @@ $palette:(
     background-color: map-get($map: $palette, $key:secundary );;
     color:#ffffff;
   }
+
+  .form-group{
+    margin-bottom: 1.5%;
+  }

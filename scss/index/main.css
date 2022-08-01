@@ -63,6 +63,7 @@ body {
   background: grey;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
+  font-weight: 600;
 }
 
 .items-nav a:hover {
@@ -184,6 +185,10 @@ body {
 .buton-solicitu:hover {
   background-color: #0d3d63;
   color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 1.5%;
 }
 
 .logo-footer {
@@ -476,7 +481,8 @@ body {
   }
   .container-fluid {
     position: relative;
-    top: -37px;
+    top: -60px;
+    left: 3%;
   }
   .items-nav a {
     width: 50%;
@@ -485,6 +491,7 @@ body {
   }
   .container-logo {
     margin-left: auto;
+    width: 130px;
   }
   .container-elements {
     margin: 0;
@@ -503,7 +510,7 @@ body {
 @media only screen and (max-width: 540px) {
   .items-nav a {
     width: 100%;
-    margin-bottom: 0.3%;
+    margin-bottom: 0.4%;
     padding-bottom: 2%;
   }
   /* estilos pag index */
@@ -607,16 +614,20 @@ body {
   }
   .container-fluid {
     position: relative;
-    top: -37px;
+    top: -46px;
+    left: 0px;
+  }
+  .navbar-toggler-icon {
+    width: 1.2em;
   }
   .container-logo {
     margin-left: auto;
+    width: 115px;
   }
   .container-elements {
     margin: 0;
   }
   .logo-footer {
-    width: 100%;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
