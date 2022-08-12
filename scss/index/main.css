@@ -240,6 +240,10 @@ body {
   padding-top: 6%;
 }
 
+.content-icons a {
+  text-decoration: none;
+}
+
 .paragraph-footer {
   font-size: 12px;
 }
@@ -440,6 +444,13 @@ body {
   .content-form {
     width: 40%;
   }
+  .container-introduction {
+    margin-top: 9%;
+  }
+  /*querys pag casos  */
+  .content-cases-successful {
+    margin-top: 4%;
+  }
   .content-footer {
     padding-left: 10%;
     padding-right: 10%;
@@ -448,16 +459,21 @@ body {
     width: 100%;
     font-size: 12px;
   }
-  /*querys pag casos  */
-  .content-cases-successful {
-    margin-top: 4%;
-  }
   .section-main, .content-footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .logo-footer {
+    width: 200px;
+    position: relative;
+    left: -15%;
+    top: 17%;
+  }
+  .icon-logo {
+    width: 23%;
   }
   .content-experience {
     margin-bottom: 5%;
@@ -476,8 +492,7 @@ body {
     width: 80px;
   }
   .content-icons {
-    padding-top: 6%;
-    padding-bottom: 6%;
+    margin-top: 30%;
   }
   .container-fluid {
     position: relative;
@@ -495,14 +510,6 @@ body {
   }
   .container-elements {
     margin: 0;
-  }
-  .logo-footer {
-    width: 59%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    position: relative;
-    left: 22%;
   }
 }
 
@@ -608,6 +615,7 @@ body {
   .content-icons {
     padding-top: 10%;
     padding-bottom: 10%;
+    margin-top: 0%;
   }
   .content-icons a {
     margin-right: 0;
@@ -628,9 +636,10 @@ body {
     margin: 0;
   }
   .logo-footer {
-    padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+    position: relative;
+    left: 10%;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -51,11 +51,21 @@
   
     .content-form{
       width: 40%;
+    }  
+
+    .container-introduction {
+      margin-top: 9%;
     }
-  
-    .content-footer{
+     /*querys pag casos  */
+     .content-cases-successful{
+       margin-top: 4%;
+     }
+
+    //  footer
+     .content-footer{
       padding-left: 10%;
       padding-right: 10%;
+      // display: ;
     }
    
    .content-footer p {
@@ -63,15 +73,21 @@
       font-size: 12px;
     }
   
-     /*querys pag casos  */
-     .content-cases-successful{
-       margin-top: 4%;
-     }
-  
      .section-main, .content-footer{
        @include flex-wrap
       
     }
+    .logo-footer{
+      width: 200px;
+      position: relative;
+      left: -15%;
+      top: 17%;
+    }
+
+    .icon-logo{
+      width: 23%;
+    }
+
   
     .content-experience{
       margin-bottom: 5%;
@@ -93,8 +109,8 @@
     }
       
     .content-icons{
-      padding-top: 6%;
-      padding-bottom: 6%;
+      
+      margin-top: 30%;
     }
     // menu hamburguesa
     .container-fluid {
@@ -117,13 +133,6 @@
       margin: 0;
     }
 
-    .logo-footer{
-      width: 59%;
-      padding-top: 5%;
-      padding-left: 5%;
-      padding-bottom: 5%;
-      position: relative;
-      left: 22%;
-    }
+   
    
   }
